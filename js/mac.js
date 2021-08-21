@@ -102,7 +102,9 @@ document.getElementById("login-submit").addEventListener('click', function () {
     let discountprice = document.getElementById("discount-price");
     let m = parseFloat(discountprice.innerText);
     let cuponCode = document.getElementById("cupon-code");
+
     let j = cuponCode.value;
+
 
     if (j == 'stevekakku') {
         discountprice.innerText = m * .80;
